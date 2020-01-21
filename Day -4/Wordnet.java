@@ -101,7 +101,7 @@ class Wordnet {
 
    // distance between nounX and nounY (defined below)
    public int distance(String nounX, String nounY) {
-        sap = new SAP(d);s
+        sap = new SAP(d);
         if (!isNoun(nounX) || !isNoun(nounY)) {
             throw new IllegalArgumentException("Not Wordnet Noun");
         }
