@@ -1,5 +1,5 @@
 import java.awt.Color;
-import edu.princeton.cs.algs4.Picture;
+// import edu.princeton.cs.algs4.Picture;
 import java.util.Arrays;
 
 public class SeamCarver {
@@ -29,7 +29,7 @@ public class SeamCarver {
         if (x == 0 || y == 0 || x == width() - 1 || y == height() - 1) {
             return 1000;
         }
-        double deltaX=0.0, deltaY=0.0;
+        double deltaX = 0.0, deltaY = 0.0;
         Color x1    = this.picture.get(x, y + 1);
         Color x2 = this.picture.get(x, y - 1);
         Color y1   = this.picture.get(x - 1, y);
